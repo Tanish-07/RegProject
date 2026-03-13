@@ -1,0 +1,15 @@
+<nav class="navbar" [class.scrolled]="isScrolled">
+  <div class="nav-left">
+    <span class="logo">Register</span>
+  </div>
+
+  <div class="nav-right">
+    <span class="nav-item"
+      [class.active]="activeSection === 'home'"
+      (click)="navigateToSection('home')">Home</span>
+
+    <span class="nav-item"
+      [class.active]="activeSection === 'problem'"
+      (click)="navigateToSection('problem')">Problem</span>
+  </div>
+</nav>

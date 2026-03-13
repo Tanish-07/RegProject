@@ -1,0 +1,35 @@
+.admin-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+  text-align: center;
+}
+
+/* message container */
+.success-box {
+  padding: 40px 60px;
+  border-radius: 16px;
+  background: #f5f5f5;
+}
+
+/* small label */
+.success-label {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #888;
+}
+
+/* main heading */
+.success-box h1 {
+  font-size: 64px;
+  font-weight: 400;
+  margin: 16px 0;
+}
+
+/* description text */
+.success-msg {
+  max-width: 420px;
+  margin: auto;
+  color: #555;
+}
